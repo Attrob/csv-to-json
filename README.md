@@ -8,18 +8,21 @@ The fields in the csv files will be properties inside the object. A complex prop
 
 # Requirements and versions:
 
-node: 20.10.0
-express: 4.19.1
-knex: 3.1.0
-pg: 8.11.3
+node: 20.10.0     
+
+express: 4.19.1     
+
+knex: 3.1.0   
+
+pg: 8.11.3    
 
 
-# Start
+# Start to Finish
 
 1. Clone the repository
 2. Install node and postgres RDBMS
 3. Install the dependencies in package.json file. Use "npm i".
-4. Configure database and use the following command to create the users table.
+4. Configure database and use the following command to create the users table.     
     CREATE TABLE public.users (
         id SERIAL PRIMARY KEY NOT NULL,  
         "name" VARCHAR(255) NOT NULL,  
@@ -29,7 +32,8 @@ pg: 8.11.3
     );
 5. Modify the user data present in the dummy_data.csv file. Play with it!
 6. Start the project using "npm start". In case the port 4004 is already in use. Use some other available port. You can configure this in .env file.
-7. Use the below cURL in postman to test the API.
+7. Use the below cURL in postman to test the API.      
+
     curl --location --request POST 'http://localhost:4004/api/v1/csv-to-json' \
     --header 'Content-Type: application/json' \
     --data-raw '{
