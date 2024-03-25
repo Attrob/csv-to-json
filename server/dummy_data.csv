@@ -1,0 +1,6 @@
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,interests
+ABC,DEF,19,Plot 70,Area 80,Mumbai,MH,Male,Football
+GHI,JKL,26,Plot 71,Area 80,Mumbai,MH,Male,Painting
+MNO,PQR,37,Plot 70,Area 80,Mumbai,MH,Female,Cricket
+STU,UVX,69,Plot 80,Area 80,Mumbai,MH,Female,Cycling
+Y,Z,42,Plot 101,Area 80,Mumbai,MH,Female,Swimming
